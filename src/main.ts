@@ -1,6 +1,6 @@
 import './style.css'
-import { setupCounter } from './counter.ts'
-import './topics/03-functions.ts'
+
+import './topics/07-import-export.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
  Hola mundo
@@ -8,4 +8,3 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 console.log('Hello World!');
 
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
